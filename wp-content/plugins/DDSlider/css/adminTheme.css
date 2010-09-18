@@ -1,0 +1,130 @@
+.DDCollapseSection {
+	
+	cursor: pointer;
+	display: block;
+	background: url(../images/arrow_collapse.png) no-repeat center center;
+	height: 15px;
+	width: 15px;
+	float: right;
+	
+}
+
+.DDShowSection {
+	
+	cursor: pointer;
+	display: block;
+	background: url(../images/arrow_show.png) no-repeat center center;
+	height: 15px;
+	width: 15px;
+	float: right;
+	
+}
+
+.DDShowCollapse {
+	
+	cursor: pointer;
+	
+}
+
+.hidden {
+	
+	display: none;
+	
+}
+
+.DDdeleteThis {
+	
+	background: url(../images/deleteSlider.png) no-repeat center center;
+	height: 14px;
+	width: 13px;
+	display: block;
+	cursor: pointer;
+	
+}
+
+.DDThisImgSrc {
+	
+	background: #ffffff url(../images/image_icon.png) no-repeat center left;
+	padding-left: 20px !important;
+	
+}
+
+.DDGetInfo {
+	
+	background: url(../images/helpBW.png) no-repeat center center;
+	display: inline-block;
+	cursor: pointer;
+	height: 16px;
+	margin: 0 0 0 10px;
+	position: relative;
+	width: 16px;
+	
+}
+
+.DDGetInfo:hover, .DDGetInfo.hover {
+	
+	background: url(../images/help.png) no-repeat center center;
+	
+}
+
+.infoBoxArrow {
+	
+	background: url(../images/infoBoxArrow.png) no-repeat top left;
+	width: 12px;
+	height: 11px;
+	position: absolute;
+	float: left;
+	right: 11px;
+	top: -10px;
+	
+}
+
+.DDGetInfo p, p.DDinfo {
+	
+	display: none;
+	background: #227399 url(../images/tootltipBG.gif) repeat-x top left;
+	border: 1px solid #114d69;
+	position: absolute;
+	color: #ffffff;
+	font-weight: bold;
+	top: 25px;
+	right: -10px;
+	overflow: visible;
+	padding: 10px 15px;
+	z-index: 10;
+	width: 400px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 0px -1px 0px #1c5e7d;
+	
+}
+
+.DDThisCrop {
+	
+	float: left;
+	
+}
+
+p.DDinfo {
+	
+	display: block !important;
+	width: 85px;
+	top: 12px;
+	right: -10px;
+	
+}
+
+.DDThisImgUrl {
+	
+	background: #ffffff url(../images/url_icon.png) no-repeat center left;
+	padding-left: 20px !important;
+	
+}
+
+.DDThisImgAlt {
+	
+	background: url(../images/alt_icon.png) no-repeat center left;
+	padding-left: 20px !important;
+	
+}

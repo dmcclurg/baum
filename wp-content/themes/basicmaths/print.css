@@ -1,0 +1,20 @@
+body {
+	background: white;
+	font-size: 12pt;
+	}
+
+
+#access, #toptags, #skip, h1 a,.strip_wrapper, #pointer, .nav-next, .nav-prev, #nav-search{
+	display: none;
+	}
+ul{list-style-type: none;}
+	
+#wrapper, #content {
+	width: auto;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: none !important;
+	}
+.description{color:#333; font-family: Georgia; font-weight: normal;}
+th, td{width:160px; text-align: center;}

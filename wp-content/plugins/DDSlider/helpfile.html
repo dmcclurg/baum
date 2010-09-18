@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DDSlider WordPress Plugin - Help File</title>
+<style type="text/css" media="screen">
+body {
+	font: 13px/1.4 Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.15em; }
+
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+p, table, hr, .box {
+	margin-bottom:25px;
+}
+.box p {
+	margin-bottom:10px;
+}
+code {
+	font: 13px/1.3 "Courier New", Courier, monospace;
+	background-color: #eee;
+	border: 1px dotted #aaa;
+	padding: 0px 3px;
+}
+
+pre {
+	
+	font: 13px/1.3 "Courier New", Courier, monospace;
+	background-color: #eee;
+	border: 1px dotted #aaa;
+	padding: 0px 3px;
+	
+}
+.note {
+	color: #f33;
+	font-weight: bold;
+}
+</style>
+</head>
+
+
+<body>
+
+
+	<div id="wrapper">
+    
+    	<h1>DDSlider WordPress Plugin - Help File</h1>
+        
+        <hr />
+        
+        <ul>
+        
+        	<li><a href="#install">Installing your plugin</a></li>
+       	  <li><a href="#insert">Inserting the DDslider into your pages</a></li>
+        	<ul>
+            
+            	<li><a href="#first">First things first - Creating a new slider</a></li>
+            	<li><a href="#configure">Configuring your slider</a></li>
+            	<li><a href="#adding">Adding/Editing/Removing Slides</a></li>
+            	<li><a href="#inserting">Inserting the Slider into a post, page or custom post type</a></li>
+           	</ul>
+   	      <li><a href="#inline">Adding Inline content</a></li>
+   	      <li><a href="#support">Get Support</a></li>
+        </ul>
+<hr id="install" />
+        
+        <h3>Installing your plugin - <a href="#">Top</a></h3>
+        
+        <p>Start by logging in into your WordPress admin panel. Once you have logged in, go to the plugins area <em>(clicking on the plugins menu item)</em>. Now we need to upload our plugin. Right next to the plugin heading, there is a 'Add New' button. Click on it. You'll be redirected to the install plugin area. Click on the link 'Upload'. Now chose your plugin file (in our case the .zip file you've just downloaded from CodeCanyon.). Now click Upload. Once the upload is finished, go back to the plugins main area and activate DDSlider WP Plugin.</p>
+        
+        <hr id="insert" />
+        
+        <h3>Inserting DDSlider into your pages - <a href="#">Top</a></h3>
+        
+        <p>There are two ways of inserting sliders in your pages.</p>
+        <h4 id="first">First things first - Creating a new slider: - <a href="#">Top</a></h4>
+        <p>The first thing you'll want to do is create a new slider. DDSliderWP supports multiple sliders, meaning that you can have 5 different sliders and use them in different pages. <em>Please note that even though DDSliderWP supports multiple sliders, this does not mean that they support multiple sliders on the same page.</em></p>
+        <p>Once you've activated your slider, you'll notice that a new menu has appeared at the bottom of your admin panel menu. There are 2 otpions in this menu &quot;Slide Manager&quot; and &quot;General Options&quot;.</p>
+        <p>We need to first create our slider, so by clicking on &quot;General Options&quot; you'll be redirected to a page where you'll find two fields to add a new slider. Please refer to the list below to know each field:</p>
+        <ul>
+          <li><strong>Unique Slider Name</strong>: This is your slider identifier. Whenever you want to display your slider, you'll need this name in order to do so. This name has to be unique and can contain spaces.</li>
+          <li><strong>Slider Description</strong>: This is just for reference. If you want to add descriptions to your slider in order to best recognize them feel free. This field is optional.</li>
+        </ul>
+        <p>After filling out the form, you may now press &quot;Add New Slider&quot;.</p>
+        <p>A new slider will appear on your General Options Panel. You can either edit its configurations or delete the slider. Please note that if you delete a slider from the General Options page, its sliders will be removed from the Manager Slider panel as well.</p>
+        <p>Click on Edit to configure your slider.</p>
+        <h4 id="configure">Configuring your slider: - <a href="#">Top</a></h4>
+        <p>Every new added slider already has its predefined options.</p>
+        <p>The General Options page is divided into sections to best organize it. The sections are organized by importancy, meaning that the most important options are at the top.</p>
+        <p>You'll find that each field has an Info icon next to it. You can click them at any time to get information about that specific field.</p>
+        <p>The fields that you'll probably be editing is Width and Height.</p>
+        <p>There are a few fields that I'd like to describe a bit further:</p>
+        <ul>
+          <li><strong>Cropped image quality</strong>: Whenever you use the crop image option when adding a new slider, this is the quality of the cropped image. Choose a number between 1 and 100.</li>
+          <li><strong>Arrows Position</strong>: Here, you'll be able to choose the position of the automatic arrows or insert custom arrows. Inserting custom arrows is a bit more complex. To insert custom arrows you'll need to manually insert the arrows into your page using HTML &amp; CSS and assign an ID to your arrows. The ID assigned to the arrows is what you'll be inerting into the custom fields. User jQuery selectors such as <code>#myArrowId</code> or <code>.myArrowClass</code></li>
+          <li><strong>Selectors Position</strong>: You'll also be able to insert automatic selectors or insert custom ones. In order to insert custom Selectors, you'll need to manually insert an UL tag and assign an ID or class to it. After doing so, you can simply insert the jQuery Selector into the custom Selector box just like in the arrows.</li>
+          <li><strong>Ease</strong>: If you have the jQuery Easing plugin in your page, you can assign one of its eases here.</li>
+        </ul>
+        <p>Other than these options, all options are very straight forward and you can easily get info on each one of them using the info Icon.</p>
+        <p>After configuring your slider you can save your options. Now let's add slides!    </p>
+        <h4 id="adding">Adding/Editing/Removing Slides - <a href="#">Top</a></h4>
+<p>By accessing the slide manager panel, you'll find yourself before a very user friendly panel. At the top (currently you won't have anything because we haven't added slides yet!) you'll find the slide manager panel.</p>
+        <p>Right below it you'll find a set of fields to define information, so we can add a slider. Each field has an 'i' icon next to it. Click on them to open a detailed information of each field.</p>
+        <p>Even though there are info icons next to every field, there are two fields I'd like to talk about:</p>
+        <h5>Crop image checkbox:</h5>
+        <p>When adding a slide, you can check this box if you want to 'crop' the image chosen. If the image you have uploaded or included in the field is either larger or smaller than the defined slide width and height, this image will be resized to fit your slider perfectly.</p>
+        <h5>Background Color:</h5>
+        <p>This option is really good if you are using an image that is smaller than the defined slide width and height, or if you are using inline content. This will prevent the slider from playing weird contentless transitions.</p>
+        <h5>Editing your slides:</h5>
+        <p>Whenever you make a change to a slide, do not forget to hit the 'Save Changes' button. Otherwise, changes will have no effect whatsoever and you'll go back to the original place if the page is reloaded.</p>
+        <h4 id="inserting">Inserting the Slider into a post, page or custom post type- <a href="#">Top</a></h4>
+        <p>To insert your slider using the WP Admin panel, start by creating/editing a page/post. To inert your slider, all you have to do is include a shortcode in your content area, wherever you want it to appear.</p>
+        <p>Don't forget to insert the name of your slider, otherwise no slider is displayed. Follow the example below</p>
+        <p><img src="images/DocAsset1.gif" width="600" height="320" alt="001" /></p>
+        <p>Make sure you also write your slider name correctly.</p>
+        <h4>Inserting the Slider directly into a PHP file - <a href="#">Top</a></h4>
+        <p>To insert the slider directly into a PHP file, open your PHP file and add the following function wherever you want it to appear</p>
+        <p><code>&lt;?php if(function_exists('displayDDSlider')) { echo displayDDSlider(array(name=>"Your Slider Name")); } ?></code></p>
+        <p>Remember to include your slider name between quotes and spell it correctly.</p>
+        <hr id="inline" />
+        <h3>Adding Inline Content: - <a href="#">Top</a></h3>
+        <p>To be honest, if you or your client does not have a notion of HTML and CSS, Inline content can be a problem for you.</p>
+        <p>The slider itself deals with whatever is inside the LI tag. if you have text, the script will clone your text into each block of transition. So if your current slide is transparent, this means that you'll pretty much have an invisible transition as well. In order to add Inline content like the one you see in the Live Demo, you need to set up a few things first:</p>
+        <ol>
+          <li>First, we need a container that fills the entire space of the LI tag with a background color or image.</li>
+          <li>We need to set this container's width and height, so it fills the entire LI tag</li>
+          <li>We'll probably be adding padding to this container, so our inline content doesn't stick on the edge of the slider        </li>
+          <li>Add our inline content</li>
+        </ol>
+        <p>Let's start by the steps mentioned above:</p>
+        <h5>Add the wrapping container</h5>
+        <p>Let's start by adding a wrapping container with a background so we don't get transparent transitions. For this example I'll be using our default width and height values - 960x300.      </p>
+      <pre>&lt;div style="
+      
+background: #ffffff url(your background image url) repeat-x top left
+    
+">
+        
+        [...]
+        
+&lt;/div>      </pre>
+      <p>With our DIV container wrapping all of our content, we don't have to bother about transparent transitions anymore. But if you add just a little of text, it won't matter much, because or div wrapping container doesn't have and width and height set so it'll automatically assign the width and height of our content (which can be as little as line height). So let's also assign a width and height:</p>
+      <pre>&lt;div style="
+      
+	background: #ffffff url(your background image url) repeat-x top left;
+	width: 960px;
+	height: 300px;
+ 
+">
+        
+        [...]
+        
+&lt;/div>
+</pre>
+      <p>Now we've just added width and height to our DIV container, this exapands our box, and now it fills the entire LI! But hold on, my content is right on the edge of my slider, how can I add some margin to it?</p>
+      <p>Simple, we'll add padding to our DIV container. Adding padding can be quite confusing if you are not used to HTML &amp; CSS. Whenever you add padding to a container that has a width and height defined, the pdding is added to the width and height. For example, if you have a 1000px long DIV container, and adding 100px of padding on the left, your DIV container will actually be 1100px wide and not 1000px. Said so, wheneve you add padding to the left or right, you'll need to subtract this value from the width, and whenever you add padding on the top or bottom, you'll need to usbtract the padding from the height value.</p>
+      <p>In the next example I'll be adding 50px padding on each side of my DIV container, pay attenction how my width and height will be reduced.</p>
+      <pre>&lt;div style="
+      
+	background: #ffffff url(your background image url) repeat-x top left; 
+	width: 860px; /* (which is actually 960px - 50px - 50px) */
+	height: 200px; /* (which is actually 300px - 50px - 50px) */
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left- 50px;
+    
+">
+        
+        &lt;h2>Now I can add Inline Content!&lt;/h2>
+        
+&lt;/div>
+</pre>
+      <p>From here on, you are free to insert buttons, links, paragraphs, lists and much more. I won't get into details of adding buttons and etc because the point of this documentation is to just explain the inline content function and not to teach HTML and CSS.</p>
+      <hr id="support" />
+        <h3>Support: - <a href="#">Top</a></h3>
+<p>If you need support or have any other issues with your slide, please contact me using the contact form on this <a href="http://codecanyon.net/user/DDStudios/">page</a>. Remember that it is not the author's responsability to offer support to his items. However, if you need any help setting up your slide, contact me through the link given above and DDStudios will get back to you as soon as possible. Charges may apply.</p>
+	</div>
+
+
+</body>
+</html>
