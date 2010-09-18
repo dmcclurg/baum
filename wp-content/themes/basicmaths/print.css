@@ -7,7 +7,6 @@ body {
 #access, #toptags, #skip, h1 a,.strip_wrapper, #pointer, .nav-next, .nav-prev, #nav-search{
 	display: none;
 	}
-ul{list-style-type: none;}
 	
 #wrapper, #content {
 	width: auto;
