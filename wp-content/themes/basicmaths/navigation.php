@@ -2,7 +2,9 @@
 <ul id="topnav" class="<?php wp_title('',true,''); ?>">
     <li class="bikeItem">
     	<a href="bikes" class="bikes">Bikes</a>
+			
 			<div class="sub">
+				<div class="fauxtab"></div>
 				<ul class="firstChild" id="road">
 					<li><h2>Road</h2>
 					<?php include 'navigation-road.php'; ?>
@@ -23,6 +25,7 @@
 			</div>
     </li>
     <li><a href="fit-finish" class="fitFinish">Fit &amp Finish</a></li>
+	<li><a href="fit-finish2" class="fitFinish">Fit &amp Finish2</a></li>
     <li><a href="blog" class="blog">Blog</a></li>
     <li><a href="about" class="about">About</a></li>
 	<li><a href="contact" class="contact">Contact</a></li>

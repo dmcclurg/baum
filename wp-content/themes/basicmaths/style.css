@@ -117,29 +117,42 @@ ul#topnav li {
 	position: relative; /*--Important--*/
 }
 
-ul#topnav li.bikeItem{position:relative; top:-5px; padding:5px 0 0 5px;}
-ul#topnav li.bikeItem a{padding-top:12px; position:relative; top:-5px; left:-5px; padding-left:15px;}
+/*ul#topnav li.bikeItem{position:relative; top:-5px; padding:5px 0 0 5px;}
+ul#topnav li.bikeItem a{padding-top:12px; position:relative; top:-5px; left:-5px; padding-left:15px;}*/
+
+ul#topnav li.bikeItem a{position: relative; z-index:9999999;}
 
 ul#topnav li a {
 	float: left;
 	height: 23px;
 	padding:7px 25px 0 25px;
 	text-transform: uppercase;
-	margin-right:55px;
+	margin-right:28px;
 }
 
 ul#topnav li a:hover{color:#e56c00;}
 
 ul#topnav li a.bikes.hoverTime{
-	background:#f3f0e8;
-	color:#e56c00;
+		color:#e56c00;
+/*	background:#f3f0e8;
+
 	-moz-border-radius-topleft: 5px;
 	-khtml-border-radius-topleft: 5px;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topright: 5px;
 	-khtml-border-radius-topright: 5px;
-	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;*/
 	}
+
+ul#topnav li .sub div.fauxtab{	background:#f3f0e8;
+		color:#e56c00;
+		-moz-border-radius-topleft: 5px;
+		-khtml-border-radius-topleft: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		-khtml-border-radius-topright: 5px;
+		-webkit-border-top-right-radius: 5px;
+		position: absolute; top:-45px; height:45px; z-index:0; width:110px; left:0px; cursor:pointer;}
 	
 
 ul#topnav li:hover a, ul#topnav li a:hover { background-position: left bottom; } /*--Hover State--*/
@@ -148,7 +161,7 @@ ul#topnav li .sub {
 	position: absolute; /*--Important--*/
 	top: 35px; left: 0;
 	z-index: 99999;
-	background: #f3f0e8 url(sub_bg.png) repeat-x; /*--Background gradient--*/
+	background: #f3f0e8; /*--Background gradient--*/
 	padding: 20px 20px 20px;
 	float: left;
 	width:905px!important;

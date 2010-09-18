@@ -775,8 +775,8 @@ function basic_maths_js() { ?>
 			//On Hover Over
 			function megaHoverOver(){
 			    $(this).find(".sub").stop().fadeTo('fast', 1).show(); //Find sub and fade it in
+			//$(this).find(".sub").stop().css('opacity', 1).show(); //Find sub and fade it in
 				
-
 				$("a", this).addClass("hoverTime");
 
 			    (function($) {
