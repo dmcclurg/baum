@@ -227,7 +227,7 @@
 								break;
 								
 							case 'bottomRight':
-								$DDContent .= 'bottom: 10px; right: 10px;';
+								$DDContent .= 'bottom: 10px; right: 50%;';
 								break;
 							
 						}
