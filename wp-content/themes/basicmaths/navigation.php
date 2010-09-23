@@ -24,8 +24,8 @@
 				</ul>
 			</div>
     </li>
-    <li><a href="fit-finish" class="fitFinish">Fit &amp Finish</a></li>
-	<li><a href="fit-finish2" class="fitFinish">Fit &amp Finish2</a></li>
+    <li><a href="custom-fit" class="customFit">Custom fit</a></li>
+	<li><a href="paint-personalisation" class="paintPersonal">Paint &amp; personalisation</a></li>
     <li><a href="blog" class="blog">Blog</a></li>
     <li><a href="about" class="about">About</a></li>
 	<li><a href="contact" class="contact">Contact</a></li>

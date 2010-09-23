@@ -127,21 +127,13 @@ ul#topnav li a {
 	height: 23px;
 	padding:7px 25px 0 25px;
 	text-transform: uppercase;
-	margin-right:28px;
+	margin-right:15px;
 }
 
 ul#topnav li a:hover{color:#e56c00;}
 
 ul#topnav li a.bikes.hoverTime{
 		color:#e56c00;
-/*	background:#f3f0e8;
-
-	-moz-border-radius-topleft: 5px;
-	-khtml-border-radius-topleft: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	-khtml-border-radius-topright: 5px;
-	-webkit-border-top-right-radius: 5px;*/
 	}
 
 ul#topnav li .sub div.fauxtab{	background:#f3f0e8;
@@ -811,13 +803,14 @@ h3 span.count {text-transform:lowercase;}
 
 #container.fullWidth #content{width:940px}
 #container.fullWidth .entry-content{width:940px;}
-#container.fullWidth .entry-content p, #container.fullWidth .entry-content h2,#container.fullWidth .entry-content h3, #container.fullWidth .single-entry-meta, #container.fullWidth .entry-content img, #container.fullWidth .entry-content ul, #container.fullWidth .entry-content ol{margin-left:0; padding-left:0;}
+#container.fullWidth .entry-content p, #container.fullWidth .entry-content h2,#container.fullWidth .entry-content h3, #container.fullWidth .single-entry-meta, #container.fullWidth .entry-content img, #container.fullWidth .entry-content ul, #container.fullWidth .entry-content ol, .wp-caption.alignnone, .wp-caption.alignleft, .wp-caption.aligncenter{margin-left:0; padding-left:0;}
 #container.fullWidth .intro{line-height: 2em;}
 #container.fullWidth .fw-leftColumn{width:540px; float: left; margin-right: 20px}
 #container.fullWidth .fw-leftColumn a{color:#0070ef; font-weight: normal;}
 #container.fullWidth .fw-rightColumn{width:380px; float: left;}
 #container.fullWidth .fw-rightColumn img{padding-bottom: 10px}
 #container.fullWidth #content{margin-left:0;}
+#container.fullWidth .alignleft, #container.fullWidth img.alignleft{margin-right: 0;}
 
 .bottom-nav {margin-bottom: 10px}
 .bottom-nav a{font-size: 13px; font-weight: normal; color:#0070EF!important; line-height: 1.6em;}
