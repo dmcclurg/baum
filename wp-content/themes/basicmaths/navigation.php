@@ -29,7 +29,7 @@
     <li><a href="blog" class="blog">Blog</a></li>
     <li><a href="about" class="about">About</a></li>
 	<li><a href="contact" class="contact">Contact</a></li>
-	<li><a href="f-a-q" class="faq">F.A.Q</a></li>
+	<li><a href="f-a-q" class="faq">F.A.Q.</a></li>
 </ul>
 
 <script>

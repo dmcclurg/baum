@@ -2,7 +2,7 @@
 	<li class="head"><h3>Titanium</h3></li>
 	<li class="romano"><a href="<?php base_url(); ?>/bikes/romano">Romano</a></li>
 	<li class="cubano"><a href="<?php base_url(); ?>/bikes/cubano">Cubano</a></li>
-	<li class="coretto"><a href="<?php base_url(); ?>/bikes/coretto">Coretto</a></li>
+	<li class="coretto"><a href="<?php base_url(); ?>/bikes/coretto">Corretto</a></li>
 </ul>
 <!-- <ul>
 	<li class="head"><h3>Carbon</h3></li>
